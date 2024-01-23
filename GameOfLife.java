@@ -119,21 +119,21 @@ public class GameOfLife {
 		int countLivingNeighbours = 0;
 
 		if (board[i - 1][j - 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i - 1][j] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i - 1][j + 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i][j - 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i][j + 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i + 1][j - 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i + 1][j] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		} if (board[i + 1][j + 1] == 1) {
-			countLivingNeighbours = 1;
+			countLivingNeighbours++;
 		}
 		return countLivingNeighbours;
 	}
